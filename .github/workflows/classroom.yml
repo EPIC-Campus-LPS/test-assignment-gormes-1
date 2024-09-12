@@ -20,7 +20,7 @@ jobs:
         test-name: Hello World Test
         setup-command: ''
         command: java ./src/Main.java
-        input: ''
+        input: '1'
         expected-output: Hello world!
         comparison-method: exact
         timeout: 10
