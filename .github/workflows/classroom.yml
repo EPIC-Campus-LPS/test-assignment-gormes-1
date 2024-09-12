@@ -21,7 +21,7 @@ jobs:
         setup-command: ''
         command: java ./src/Main.java
         input: '2'
-        expected-output: Hello world!
+        expected-output: '4'
         comparison-method: exact
         timeout: 10
     - name: Autograding Reporter
